@@ -50,7 +50,7 @@
       
     }
     
-    h1 ,h2 ,p, em {
+    h1 ,h2 ,p, em, strong {
       word-spacing: -200em;
       transition: word-spacing 3s;
     }
