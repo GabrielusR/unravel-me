@@ -6,66 +6,7 @@
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-  
-  <style>
-    body {
-      font-family: Georgia, Helvetica, sans-serif;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: .25em;
-      word-spacing: -.1em;
-      width: 1000px;
-      margin: 0 auto;
-
-    }
-    
-    h1,h2,h3,h4,h5,h6 {
-      font-weight: lighter;
-      letter-spacing: 4.777px;  
-      text-align: left;
-    }
-    
-    h1 {
-      font-size: 2.7em;
-      text-transform: uppercase;
-    }
-    
-    h2 {
-      font-size: 1.35em;
-      text-transform: lowercase;
-    }
-    
-    div#unraveled {
-      width: 20%;
-      margin: 10% auto;
-      padding: .5em;
-      border-radius: 10px;
-      background-color: #EF2965;
-      box-shadow: 5px 5px 3px rgba(200,200,200, .8);
-    }
-    
-    div#unraveled h3 {
-      color: white;
-      text-align: center;
-    }
-   
-    em {
-      font-style: italic;
-    }
-    
-    p {
-      text-indent: 1em;
-      text-align: right;
-      max-width: 100em;
-      
-    }
-    
-    h1 ,h2 ,p, em {
-      word-spacing: -100em;
-      transition: word-spacing 5s;
-    }
-    
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
@@ -83,13 +24,6 @@
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit autem ipsa odit voluptas praesentium harum, voluptates officiis illum earum in delectus dignissimos ab beatae id eos! Ipsa debitis adipisci eius.
 <em>This text should be given some emphasys</em></p>
   
- <script>
-    $(document).ready (function() {
-        $("div#unraveled").mouseover(function() {
-          $(this).fadeOut(4000);
-          $("h1,h2,p").css("word-spacing","inherit");
-        });
-    });
-  </script>
+ <script src="script.js"></script>
 </body>
 </html>

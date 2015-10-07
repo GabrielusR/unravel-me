@@ -1,0 +1,56 @@
+   body {
+      font-family: Georgia, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: .25em;
+      word-spacing: -.1em;
+      width: 1000px;
+      margin: 0 auto;
+
+    }
+    
+    h1,h2,h3,h4,h5,h6 {
+      font-weight: lighter;
+      letter-spacing: 4.777px;  
+      text-align: left;
+    }
+    
+    h1 {
+      font-size: 2.7em;
+      text-transform: uppercase;
+    }
+    
+    h2 {
+      font-size: 1.35em;
+      text-transform: lowercase;
+    }
+    
+    div#unraveled {
+      width: 20%;
+      margin: 10% auto;
+      padding: .5em;
+      border-radius: 10px;
+      background-color: #EF2965;
+      box-shadow: 5px 5px 3px rgba(200,200,200, .8);
+    }
+    
+    div#unraveled h3 {
+      color: white;
+      text-align: center;
+    }
+   
+    em {
+      font-style: italic;
+    }
+    
+    p {
+      text-indent: 1em;
+      text-align: right;
+      max-width: 100em;
+      
+    }
+    
+    h1 ,h2 ,p, em {
+      word-spacing: -200em;
+      transition: word-spacing 3s;
+    }
